@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: #eccd66;
+    --cor1: #bb5f2acb;
+    --cor2: #073452;
+    --cor3: #7238179d;
+    --cor4: #779e419c;
+    --cor5: #092a7283;
+    --cor5fonte: #092a7294;
+    --cor1fonte: #ca9e0b;
+    --cor2fonte: #073452b9;
+    --font0: 'Playfair Display', serif;
+    --font1: 'Quicksand', sans-serif;
+    --font2: 'Josefin Sans', sans-serif;
+}
+
+body{
+background-color: rgb(149, 173, 238);
+font-family: var(--font1);
+font-size: 1em;
+}
+
+header{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    font-family: var(--font2);
+    font-size: clamp(1rem, 2.5vw, 4rem);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+}
+
+section{
+background-color: white;
+border-radius: 5px;
+padding: 10px;
+max-width: 500px;
+margin: auto;
+text-align: center;
+margin-bottom: 10px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.171);
+}
+
+div > p{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input{
+    font-family: var(--font1);
+}
+
+#botao{
+    padding: 5px;
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color: #f3e6bb;
+}
+
+#res{
+    line-height: 4em;
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    margin: 20px 0px;
+}
