@@ -1,2 +1,2 @@
-# projeto-verifica-idade
- Verificador de idade - criado no Curso em Vídeo
+# Projeto Verificador de idade
+ Projeto criado no curso de Javascript no Curso em Vídeo
